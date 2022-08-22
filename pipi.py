@@ -1,5 +1,6 @@
 money=67
 score=10
+acc = []
 if score > 100:
     print("you have enough points")
 
@@ -10,5 +11,8 @@ if score > 100:
 
 else:
      print("you lose")
-
+def account_balance():
+    if money > 100:
+        acc.append(money)
+        
 
